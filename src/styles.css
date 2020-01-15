@@ -1,0 +1,175 @@
+@import "reset.css";
+
+
+.background{
+    height: 640px;
+    width: 340px;
+    box-sizing: border-box;
+    background-color: #F8F7FF;
+    display: flex;
+    justify-content: center;
+}
+
+.phone{
+    height: 600px;
+    width: 280px;
+    top: 10px;
+    border: 12px solid #FAFBFD;
+    border-radius: 50px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signIn{
+    margin-top: 45px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+.signInBox input{
+    height: 35px;
+    width: 240px;
+}
+
+.signInBox input::placeholder, .signInBox input::placeholder{
+    color: #BFBEBF;
+    font-family: 'Open Sans';
+    font-weight: 400;
+} 
+
+.signInBox .email{
+    margin-bottom: 24px;
+    outline: none;
+    border-radius: 15px;
+    border: 0px;
+    padding: 0px 9px;
+    font-size: 12px;
+}
+
+.signInBox .password{
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 15px;
+    border: 0px;
+    padding: 0px 9px;
+    font-size: 12px;
+}
+
+.signInBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.findPassword{
+    place-self: flex-end;
+    margin-bottom: 13px;
+}
+
+.findPassword a{
+    color: #EA6D7D;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}
+
+.check_box{
+    place-self: flex-start;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.check_box a{
+    text-decoration: none;
+}
+
+.check_box span{
+    color: #C7C8C7;
+}
+
+.signIn_box{
+    width: 100%;
+}
+.signIn_botton{
+    background-color: #E2283E;
+    height: 35px;
+    border-radius: 17px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9D4D8;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}
+
+
+.or{
+    place-self: flex-start;
+    font-size: 13px;
+    margin-bottom: 27px;
+}
+
+.sns_botton{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.sns_botton .botton{
+    height: 35px;
+    width: 115px;
+    border-radius: 17px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.sns_botton .facebook{
+    background-color: #475A95;
+    color: #D4D8E6;
+}
+
+.sns_botton .twitter{
+    background-color: #5CA1F2;
+    color: #D1E4FB;
+}
+
+.signUp{
+    place-self: flex-start;
+    font-size: 13px;
+    color: #ACACAC;
+    margin-bottom: 10px;
+}
+
+.signUp a{
+    color: #E97785;
+    text-decoration: none;
+}
+
+.retrive{
+    place-self: flex-start;
+    font-size: 13px;
+    color: #ACACAC;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.retrive a{
+    color: #E97785;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
